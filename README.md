@@ -8,6 +8,15 @@ brew install --cask K8Studio/tap/uxxu
 
 Homebrew selects the Apple Silicon or Intel installer for your machine and verifies its SHA-256 checksum. The app is installed as `/Applications/UXXU.app`.
 
+Launch from Terminal or open a local Structurizr DSL workspace (replace the example path):
+
+```sh
+open -a UXXU
+open -a UXXU "/path/to/workspace.dsl"
+```
+
+Keep file paths quoted when they contain spaces. `open -a` also works if another application is currently the default for `.dsl` files.
+
 UXXU can view supported local Structurizr DSL workspaces for free without an account. Sign in to access cloud projects; local editing requires an active editing licence and the appropriate organisation role. Installed builds register UXXU for `.dsl` files; existing default applications may need changing through Open With.
 
 ## Updates
