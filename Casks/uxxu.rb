@@ -1,9 +1,9 @@
 cask "uxxu" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.0.1"
-  sha256 arm:   "a958dfa347e0fc6b417b117f872a8c2e612e9ddeeda124a127189dc72f3b8ea0",
-         intel: "4279df7b8f3dbf9ce7c98a970fa34a169d8bcf9386e78de1fcba2ccfcebb6f56"
+  version "1.0.2"
+  sha256 arm:   "544d172e59a42f48108c127b2e0ce18330050619b77572438cd65baf38d03884",
+         intel: "ae0a0051b0b6d062c09773060d83f4c30ef6145e2644a551cdee2f8d98eae106"
 
   url "https://releases.uxxu.io/UXXU-#{version}-mac-#{arch}.dmg"
   name "UXXU"
